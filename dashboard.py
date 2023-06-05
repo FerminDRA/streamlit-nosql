@@ -45,10 +45,11 @@ print(mostrar())
 items = get_data()
 
 sidebar = st.sidebar
-sidebar.title("Aaron Emiliano Torres Nuñez")
-sidebar.write("Matricula: S20006726")
-sidebar.write("zs20006726@estudiantes.uv.mx")
+sidebar.title("Fermin Del Rosario Antonio")
+sidebar.write("Matricula: S19004879")
+sidebar.write("zs19004879@estudiantes.uv.mx")
 sidebar.markdown("_")
+sidebar.image("logoImg.jpg")
 
 #    
 agree = sidebar.checkbox("Ver resultados raw (json) ? ")
